@@ -3,6 +3,7 @@ package ar.com.almunto.callcenter.entity;
 import ar.com.almundo.callcenter.CallDispatcher;
 
 public abstract class AbstractEmpleado extends Thread implements Comparable<AbstractEmpleado>{
+	
 	//Datos del empeado
 	protected TipoEmpleado tipoEmpleado;
 	protected String nombre;
