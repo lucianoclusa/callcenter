@@ -21,6 +21,7 @@ public class CallDispatcherTest extends TestCase {
     //Este test dura 15s
     public void testTresLLamadas(){
     	try {
+    		System.out.println("-----------TEST 3 LLAMADAS--------------");
 	    	CallDispatcher dispatcher = new CallDispatcher();
 	    	dispatcher.start();
 			dispatcher.addEmpleadoDisponible(new Operador(dispatcher, "Operador 1"));
@@ -48,6 +49,7 @@ public class CallDispatcherTest extends TestCase {
     }
     //Este test dura 33s
     public void testDiezLLamadas(){
+		System.out.println("-----------TEST 10 LLAMADAS--------------");
     	try {
 	    	CallDispatcher dispatcher = new CallDispatcher();
 	    	dispatcher.start();
@@ -81,6 +83,7 @@ public class CallDispatcherTest extends TestCase {
     }
     //Este test dura 20s
    public void testIncomingCalls(){
+		System.out.println("-----------TEST INCOMING CALLS--------------");
     	try {
 	    	CallDispatcher dispatcher = new CallDispatcher();
 	    	dispatcher.start();
