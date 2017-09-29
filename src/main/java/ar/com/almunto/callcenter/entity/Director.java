@@ -1,6 +1,6 @@
 package ar.com.almunto.callcenter.entity;
 
-import ar.com.almunto.callcenter.CallDispatcher;
+import ar.com.almundo.callcenter.CallDispatcher;
 
 public class Director extends AbstractEmpleado {
 	public Director(CallDispatcher dispatcher, String nombre){

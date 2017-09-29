@@ -3,8 +3,8 @@ package ar.com.almunto.callcenter.entity;
 import java.util.Random;
 
 public class LLamada {
-	private final int MIN_DURACION = 5;
-	private final int MAX_DURACION = 10;
+	public static final int MIN_DURACION = 5;
+	public static final int MAX_DURACION = 10;
 	private int duracion;
 	private String descripcion;
 

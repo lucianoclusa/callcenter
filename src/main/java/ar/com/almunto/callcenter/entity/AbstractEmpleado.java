@@ -1,6 +1,6 @@
 package ar.com.almunto.callcenter.entity;
 
-import ar.com.almunto.callcenter.CallDispatcher;
+import ar.com.almundo.callcenter.CallDispatcher;
 
 public abstract class AbstractEmpleado extends Thread implements Comparable<AbstractEmpleado>{
 	//Datos del empeado
@@ -46,7 +46,6 @@ public abstract class AbstractEmpleado extends Thread implements Comparable<Abst
 			System.out.println("Error atendiendo llamada " + llamadaAtendida.getDescripcion());
 			e.printStackTrace();
 		} 
-        interrupt();
 	}
 
 	//Este metodo tiene que ser implementado por los hijos porque tiene que agregar a la cola una nueva instancia de empleado

@@ -1,4 +1,4 @@
-package ar.com.almunto.callcenter;
+package ar.com.almundo.callcenter;
 
 import java.util.Queue;
 import java.util.concurrent.BlockingQueue;
@@ -46,5 +46,9 @@ public class CallDispatcher extends Thread{
 	
 	public Queue<LLamada> getLLamadas(){
 		return llamadas;
+	}
+	
+	public Queue<AbstractEmpleado> getEmpleadosDisponibles(){
+		return empleadosDisponibles;
 	}
 }
